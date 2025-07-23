@@ -1,0 +1,1 @@
+bitcoin,ethereum,tether,ripple,binancecoin,solana,usd-coin,dogecoin,tron,staked-ether

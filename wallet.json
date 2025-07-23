@@ -1,0 +1,21 @@
+{
+  "balance": 330.600100000001,
+  "holdings": {
+    "cardano": {
+      "qty": 150.0,
+      "buyPrice": 0.8150638333333334
+    },
+    "tether": {
+      "qty": 100.0,
+      "buyPrice": 1.0
+    },
+    "ripple": {
+      "qty": 1200.0,
+      "buyPrice": 2.395
+    },
+    "solana": {
+      "qty": 39.5,
+      "buyPrice": 145.23
+    }
+  }
+}
