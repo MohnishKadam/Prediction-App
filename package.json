@@ -1,0 +1,12 @@
+{
+  "name": "crypto-flutter-app",
+  "version": "1.0.0",
+  "description": "Crypto Flutter Dashboard with Python Backend",
+  "scripts": {
+    "build": "echo 'Building Flutter app...' && cd crypto_flutter && flutter pub get && flutter build web --web-renderer html --base-href /",
+    "start": "python app_combined.py",
+    "dev": "python app_combined.py"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
