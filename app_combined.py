@@ -74,7 +74,7 @@ def extract_15_features(coin_data):
 
 
 app = Flask(__name__, static_folder='.', static_url_path='')
-CORS(app)
+CORS(app, origins=["*"])  # Allow all origins for development
 
 WALLET_FILE = 'wallet.json'
 DEFAULT_BALANCE = 10000
@@ -239,6 +239,6 @@ def predict():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=5000)  # Allow external connections
 
 
