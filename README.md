@@ -1,4 +1,4 @@
-# Crypto Dashboard Project
+# Crypto Prediction Project
 
 A comprehensive cryptocurrency dashboard application with price prediction capabilities, featuring a Flutter mobile frontend and Python Flask backend with machine learning integration.
 This is a real-time cryptocurrency prediction app designed to help users make better investment decisions using AI and machine learning. Built using Flutter for a smooth and responsive UI and Python (with TensorFlow and Flask) for the backend, the app offers live market data along with predictive insights for popular cryptocurrencies.
